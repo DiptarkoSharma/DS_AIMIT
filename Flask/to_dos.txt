@@ -1,0 +1,8 @@
+1. Installing Flask
+2. Building a simple skeleton App in Flask.
+3. Building URL's dynamicaly in Flask App
+4.Integrating HTML with Flask web framework with HTTP Verbs(Post,get).
+5.Jinja2 template
+ {%...%} Conditions,For statements
+ {{ Expressions to print output}}
+ {#...#} Comments

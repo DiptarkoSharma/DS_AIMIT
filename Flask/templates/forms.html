@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Form</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles.css') }}">
+</head>
+<body>
+    <div class="form-container">
+        <form action="/submit" method="post">
+            <h1>Subject Scores</h1>
+            <label for="science">Science:</label>
+            <input type="text" id="science" name="science" required><br>
+
+            <label for="maths">Maths:</label>
+            <input type="text" id="maths" name="maths" required><br>
+
+            <label for="english">English:</label>
+            <input type="text" id="english" name="english" required><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

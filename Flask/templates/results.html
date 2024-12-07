@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href=" {{ url_for('static',filename='styles.css') }} ">
+        <title>Results Page</title>
+    </head>
+    <body>
+        {% if results >= 50 %}
+            <h1>Congrats, you have "Passed" and Your score is {{ results }}</h1>
+        {% else %}
+            <h1>Your Result is "Failed" and your score is {{ results }}</h1>
+        {% endif %}
+    </body>
+</html>
